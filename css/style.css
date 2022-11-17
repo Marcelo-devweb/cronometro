@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(90deg, #000,#0ff);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+#seconds, #tens, #pont{
+    font-size: 6em;
+    position: relative;
+    top: 2.5em;
+}
+
+button{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 5px 3px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+    top: 13em;
+    position: relative;
+}
